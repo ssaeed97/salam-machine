@@ -41,14 +41,13 @@ namespace Survey
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            this.Height = this.BackgroundImage.Height;
+            this.Width = this.BackgroundImage.Width;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            //panel1.Height = this.BackgroundImage.PixelFormat.Height;
-            //panel1.Width = this.BackgroundImage.pixelformat.Width;
-            //this.AutoScrollMinSize = this.BackgroundImage.Size;
+           
         }
 
        
